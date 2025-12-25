@@ -30,7 +30,3 @@ print(f"Chai size is: {chai_size}")
 # print(f"Chai size is: {chai_size}")
 chai_note = chai_order.get("note", "Note not exists")
 print(f"Chai size is: {chai_note}")
-
-
-
-
