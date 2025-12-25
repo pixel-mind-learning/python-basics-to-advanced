@@ -1,9 +1,9 @@
 is_boiling = True
 stri_count = 5
-total_actions = stri_count + is_boiling # upcasting bool to int
+total_actions = stri_count + is_boiling  # upcasting bool to int
 print(f"Total actions (bool + int): {total_actions}")
 
-milk_present = 0 # no milk
+milk_present = 0  # no milk
 print(f"Is there milk? {bool(milk_present)}")
 
 water_hot = True

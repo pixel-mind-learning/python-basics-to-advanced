@@ -1,11 +1,11 @@
- # Integer
- 
+# Integer
+
 black_tea_grams = 14
 ginger_grams = 3
- 
+
 total_grams = black_tea_grams + ginger_grams
 print(f"Total grams of base tea is {total_grams}")
- 
+
 remaining_grams = total_grams - 2
 print(f"Total grams of remainging tea is {remaining_grams}")
 
@@ -28,7 +28,7 @@ print(f"Leftover cardamon pods: {leftover_pods}")
 
 base_flavor_strength = 2
 scale_factor = 3
-powerful_flavor = base_flavor_strength ** scale_factor
+powerful_flavor = base_flavor_strength**scale_factor
 print(f"Scaled flavor strength: {powerful_flavor}")
 
 total_tea_leaves_harvested = 1_000_000_000

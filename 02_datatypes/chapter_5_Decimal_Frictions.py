@@ -5,8 +5,8 @@ from decimal import Decimal
 ideal_temp = 95.5
 current_temp = 95.49999999999
 
-ideal_temp_dec = Decimal('95.5')
-current_temp_dec = Decimal('95.49999999999')
+ideal_temp_dec = Decimal("95.5")
+current_temp_dec = Decimal("95.49999999999")
 diff_dec = ideal_temp_dec - current_temp_dec
 
 print(f"Ideal temperature: {ideal_temp}")
