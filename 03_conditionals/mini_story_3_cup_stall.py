@@ -1,5 +1,5 @@
 cup_size = input("Enter preferred cup size (small/medium/large):").lower()
-price = 0
+price = ""
 
 if cup_size == "small":
     price = "Price is 10 rupees"
